@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="song_thumbnail">40dp</dimen>
+    <dimen name="radius">10dp</dimen>
+
+    <dimen name="small">2dp</dimen>
+    <dimen name="medium">5dp</dimen>
+</resources>

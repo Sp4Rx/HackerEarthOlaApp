@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.github.sp4rx.hackereartholaapp.MainActivity">
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tlActivityMainTabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/colorPrimaryDark"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/colorPrimary" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpActivityMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/rlActivityMainPlayer"
+        android:layout_below="@+id/tlActivityMainTabs"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <RelativeLayout
+        android:id="@+id/rlActivityMainPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <SeekBar
+            android:id="@+id/sbActivityMainSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:theme="@style/AppTheme.SeekBar"/>
+    </RelativeLayout>
+</RelativeLayout>

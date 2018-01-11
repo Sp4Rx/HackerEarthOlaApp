@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ola Music</string>
+    <string name="no_internet">Please check your internet connection.</string>
+    <string name="went_wrong">Something went wrong.</string>
+    <string name="no_data_available">No data available.\n Please pull down to refresh.</string>
+    <string name="no_favourite_songs">Press the &#9733; icon from \'All Songs\' to add songs to your favourite list.</string>
+    <string name="no_most_played_songs">Play some songs from \'All Songs\' and they will appear here.</string>
+    <string name="action_search">Search Songs</string>
+    <string name="runtime_permission_ok_dialog_message">Read/Write permission needed for core functionality.</string>
+    <string name="runtime_permission_snackbar_message">Read/Write permission needed to download and play offline.</string>
+    <string name="playback_error">Playback error.</string>
+</resources>
